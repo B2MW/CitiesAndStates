@@ -14,6 +14,8 @@
 		4C02146F19E820AA0060F800 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C02146E19E820AA0060F800 /* Images.xcassets */; };
 		4C02147219E820AA0060F800 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C02147019E820AA0060F800 /* LaunchScreen.xib */; };
 		4C02147E19E820AA0060F800 /* CitiesAndStatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C02147D19E820AA0060F800 /* CitiesAndStatesTests.m */; };
+		4C02148919E820CB0060F800 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C02148819E820CB0060F800 /* City.m */; };
+		4C02148C19E829FA0060F800 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C02148B19E829FA0060F800 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		4C02147719E820AA0060F800 /* CitiesAndStatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesAndStatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C02147C19E820AA0060F800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C02147D19E820AA0060F800 /* CitiesAndStatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiesAndStatesTests.m; sourceTree = "<group>"; };
+		4C02148719E820CB0060F800 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = City.h; path = ../City.h; sourceTree = "<group>"; };
+		4C02148819E820CB0060F800 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = City.m; path = ../City.m; sourceTree = "<group>"; };
+		4C02148A19E829FA0060F800 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4C02148B19E829FA0060F800 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,11 @@
 				4C02146619E820AA0060F800 /* AppDelegate.m */,
 				4C02146819E820AA0060F800 /* ViewController.h */,
 				4C02146919E820AA0060F800 /* ViewController.m */,
+				4C02148719E820CB0060F800 /* City.h */,
+				4C02148819E820CB0060F800 /* City.m */,
 				4C02146B19E820AA0060F800 /* Main.storyboard */,
+				4C02148A19E829FA0060F800 /* DetailViewController.h */,
+				4C02148B19E829FA0060F800 /* DetailViewController.m */,
 				4C02146E19E820AA0060F800 /* Images.xcassets */,
 				4C02147019E820AA0060F800 /* LaunchScreen.xib */,
 				4C02146119E820AA0060F800 /* Supporting Files */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C02148C19E829FA0060F800 /* DetailViewController.m in Sources */,
 				4C02146A19E820AA0060F800 /* ViewController.m in Sources */,
 				4C02146719E820AA0060F800 /* AppDelegate.m in Sources */,
+				4C02148919E820CB0060F800 /* City.m in Sources */,
 				4C02146419E820AA0060F800 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
